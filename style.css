@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: purple;
+    /*position: absolute;*/
+
+    display: flex;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    
+    border: 2px black dotted;
+
+    display: flex;    
+}
+
+aside {
+    
+    background-color: #7982DC;
+    position: relative;
+    width: 18%;
+    
+    
+}
+
+.box img {
+    /*position: relative;*/
+    width: 20rem;
+    height: 9.8rem;
+    /*background-color: beige;*/
+    border: 1px black dotted;
+    margin: 0.7rem 2rem 0 2rem;
+    border-radius: 10px;
+}
+
+section {
+    
+    background-color: #FAC0F8;
+    position: relative;
+    width: 82%;
+
+    /*display: inline;*/
+}
+
+section img, .InfoCentral {
+    margin: 2rem 30rem 0 30rem;
+}
+
+.InfoCentral p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+
+.logo {
+    width: 9rem;
+    height: 7rem;
+    margin: 12px 10px;
+    display: inline;
+
+}
+
+.listnav {
+    
+    list-style: none;
+    text-align: right;
+    margin: 1rem 1rem 1rem;
+    /*padding: 20px;*/
+    display: inline;
+    
+    position: relative;
+    width: 50%;
+    margin-left: 100px;
+
+}
+
+.imgLogo {
+    position: relative;
+    width: 50%;
+    margin-right: 150px;
+    display: inline;
+}
+
+.listnav li {
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: purple;
+
+    /*position: absolute;*/
+    display: flex;
+}
+
+footer .legend, .listContact, .socialNet {
+    position: relative;
+    width: 33.3%;
+    margin: 1.8rem 2rem 1.8rem;
+}
+
+.legend p {
+    font-size: 15px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: aliceblue;
+}
+
+.listContact {
+    list-style: none;
+    
+       
+}
+
+.listContact li {
+    font-size: 15px;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    color: aliceblue;
+   
+}
+
+.socialNet {
+    text-align: right;
+}
+
+.socialNet .socialIcon {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    /*padding: 1rem 0.5rem 1rem;*/
+    padding-top: 1.4rem;
+    padding-right: 0.7rem;
+    cursor: pointer;
+}
